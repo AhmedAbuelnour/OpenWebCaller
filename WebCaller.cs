@@ -1,4 +1,4 @@
-﻿namespace WebCaller
+﻿namespace OpenWebCaller
 {
     using Newtonsoft.Json;
     using System.Net.Http;
