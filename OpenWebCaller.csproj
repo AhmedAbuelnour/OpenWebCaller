@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ApplicationIcon>API_icon.ico</ApplicationIcon>
+    <Authors>Ahmed Abo El-Nour</Authors>
+    <Company>Personal</Company>
+    <Description>Provide a simple way to make Web API calls asynchronously!</Description>
+    <PackageReleaseNotes>It only supports JSON data formats</PackageReleaseNotes>
+    <Copyright>Free to be used or modified!</Copyright>
+    <PackageTags>ASP.NET, Console, Windows Classic Applications , Xamarin</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <RepositoryUrl>https://github.com/A7medRamadan/OpenWebCaller</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/A7medRamadan/OpenWebCaller</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\OpenWebCaller.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
